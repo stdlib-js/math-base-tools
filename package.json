@@ -57,6 +57,7 @@
     "@stdlib/constants-float64-eps": "^0.0.x",
     "@stdlib/constants-float64-sqrt-two": "^0.0.x",
     "@stdlib/fs-read-file": "^0.0.x",
+    "@stdlib/function-ctor": "^0.0.x",
     "@stdlib/math-base-assert-is-integer": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
