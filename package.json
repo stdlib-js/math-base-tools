@@ -3,7 +3,30 @@
   "version": "0.0.6",
   "description": "Base math tools.",
   "license": "Apache-2.0",
-  "main": "./index.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -12,6 +35,73 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/math-base-tools-continued-fraction": "^0.0.6",
+    "@stdlib/math-base-tools-evalpoly": "^0.0.7",
+    "@stdlib/math-base-tools-evalrational": "^0.0.6",
+    "@stdlib/math-base-tools-fibpoly": "^0.0.6",
+    "@stdlib/math-base-tools-hermitepoly": "^0.0.6",
+    "@stdlib/math-base-tools-lucaspoly": "^0.0.6",
+    "@stdlib/math-base-tools-normhermitepoly": "^0.0.7",
+    "@stdlib/math-base-tools-sum-series": "^0.0.6",
+    "@stdlib/utils-define-read-only-property": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
+  },
+  "devDependencies": {
+    "@stdlib/array-float64": "^0.0.6",
+    "@stdlib/assert-has-generator-support": "^0.0.8",
+    "@stdlib/assert-is-browser": "^0.0.8",
+    "@stdlib/assert-is-integer": "^0.0.8",
+    "@stdlib/assert-is-string": "^0.0.8",
+    "@stdlib/bench": "^0.0.12",
+    "@stdlib/constants-float32-smallest-normal": "^0.0.8",
+    "@stdlib/constants-float64-eps": "^0.0.8",
+    "@stdlib/constants-float64-sqrt-two": "^0.0.8",
+    "@stdlib/fs-read-file": "^0.0.8",
+    "@stdlib/function-ctor": "^0.0.2",
+    "@stdlib/math-base-assert-is-integer": "^0.0.7",
+    "@stdlib/math-base-assert-is-nan": "^0.0.8",
+    "@stdlib/math-base-special-abs": "^0.0.6",
+    "@stdlib/math-base-special-binomcoef": "^0.0.8",
+    "@stdlib/math-base-special-ceil": "^0.0.8",
+    "@stdlib/math-base-special-fibonacci": "^0.0.7",
+    "@stdlib/math-base-special-floor": "^0.0.8",
+    "@stdlib/math-base-special-log1p": "^0.0.6",
+    "@stdlib/math-base-special-lucas": "^0.0.7",
+    "@stdlib/math-base-special-negafibonacci": "^0.0.6",
+    "@stdlib/math-base-special-negalucas": "^0.0.6",
+    "@stdlib/math-base-special-pow": "^0.0.7",
+    "@stdlib/math-base-special-round": "^0.0.7",
+    "@stdlib/math-base-special-tan": "^0.0.6",
+    "@stdlib/random-base-discrete-uniform": "^0.0.6",
+    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/string-base-uppercase": "^0.0.2",
+    "@stdlib/string-replace": "^0.0.11",
+    "@stdlib/utils-constant-function": "^0.0.8",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
+    "@stdlib/utils-eval": "^0.0.8",
+    "@stdlib/utils-keys": "^0.0.7",
+    "@stdlib/utils-try-require": "^0.0.7",
+    "proxyquire": "^2.0.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
