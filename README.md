@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@deno/mod.js';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { continuedFraction, evalpoly, evalrational, fibpoly, hermitepoly, lucaspoly, normhermitepoly, sumSeries } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@deno/mod.js';
+import { continuedFraction, evalpoly, evalrational, fibpoly, hermitepoly, lucaspoly, normhermitepoly, sumSeries } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@v0.1.0-deno/mod.js';
 ```
 
 #### tools
@@ -91,7 +91,7 @@ var o = tools;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@deno/mod.js';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( tools ) );
 ```
