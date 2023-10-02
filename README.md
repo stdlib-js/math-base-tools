@@ -35,30 +35,38 @@ limitations under the License.
 
 > Base math tools.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-tools
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var tools = require( '@stdlib/math-base-tools' );
+tools = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var tools = require( 'path/to/vendor/umd/math-base-tools/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.tools;
+})();
+</script>
 ```
 
 #### tools
@@ -99,11 +107,21 @@ var o = tools;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var tools = require( '@stdlib/math-base-tools' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( tools ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -189,21 +207,21 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/tools/continued-fraction]: https://github.com/stdlib-js/math-base-tools-continued-fraction
+[@stdlib/math/base/tools/continued-fraction]: https://github.com/stdlib-js/math-base-tools-continued-fraction/tree/umd
 
-[@stdlib/math/base/tools/evalpoly]: https://github.com/stdlib-js/math-base-tools-evalpoly
+[@stdlib/math/base/tools/evalpoly]: https://github.com/stdlib-js/math-base-tools-evalpoly/tree/umd
 
-[@stdlib/math/base/tools/evalrational]: https://github.com/stdlib-js/math-base-tools-evalrational
+[@stdlib/math/base/tools/evalrational]: https://github.com/stdlib-js/math-base-tools-evalrational/tree/umd
 
-[@stdlib/math/base/tools/fibpoly]: https://github.com/stdlib-js/math-base-tools-fibpoly
+[@stdlib/math/base/tools/fibpoly]: https://github.com/stdlib-js/math-base-tools-fibpoly/tree/umd
 
-[@stdlib/math/base/tools/hermitepoly]: https://github.com/stdlib-js/math-base-tools-hermitepoly
+[@stdlib/math/base/tools/hermitepoly]: https://github.com/stdlib-js/math-base-tools-hermitepoly/tree/umd
 
-[@stdlib/math/base/tools/lucaspoly]: https://github.com/stdlib-js/math-base-tools-lucaspoly
+[@stdlib/math/base/tools/lucaspoly]: https://github.com/stdlib-js/math-base-tools-lucaspoly/tree/umd
 
-[@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math-base-tools-normhermitepoly
+[@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math-base-tools-normhermitepoly/tree/umd
 
-[@stdlib/math/base/tools/sum-series]: https://github.com/stdlib-js/math-base-tools-sum-series
+[@stdlib/math/base/tools/sum-series]: https://github.com/stdlib-js/math-base-tools-sum-series/tree/umd
 
 <!-- </toc-links> -->
 
