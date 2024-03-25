@@ -35,38 +35,32 @@ limitations under the License.
 
 > Base math tools.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-tools
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-tools = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var tools = require( 'path/to/vendor/umd/math-base-tools/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.tools;
-})();
-</script>
+var tools = require( '@stdlib/math-base-tools' );
 ```
 
 #### tools
@@ -83,12 +77,14 @@ var o = tools;
 <div class="namespace-toc">
 
 -   <span class="signature">[`continuedFraction( generator[, options ] )`][@stdlib/math/base/tools/continued-fraction]</span><span class="delimiter">: </span><span class="description">continued fraction approximation.</span>
--   <span class="signature">[`evalpoly( c, x )`][@stdlib/math/base/tools/evalpoly]</span><span class="delimiter">: </span><span class="description">evaluate a polynomial.</span>
--   <span class="signature">[`evalrational( P, Q, x )`][@stdlib/math/base/tools/evalrational]</span><span class="delimiter">: </span><span class="description">evaluate a rational function.</span>
+-   <span class="signature">[`evalpoly( c, x )`][@stdlib/math/base/tools/evalpoly]</span><span class="delimiter">: </span><span class="description">evaluate a polynomial using double-precision floating-point arithmetic.</span>
+-   <span class="signature">[`evalpolyf( c, x )`][@stdlib/math/base/tools/evalpolyf]</span><span class="delimiter">: </span><span class="description">evaluate a polynomial using single-precision floating-point arithmetic.</span>
+-   <span class="signature">[`evalrational( P, Q, x )`][@stdlib/math/base/tools/evalrational]</span><span class="delimiter">: </span><span class="description">evaluate a rational function using double-precision floating-point arithmetic.</span>
+-   <span class="signature">[`evalrationalf( P, Q, x )`][@stdlib/math/base/tools/evalrationalf]</span><span class="delimiter">: </span><span class="description">evaluate a rational function using single-precision floating-point arithmetic.</span>
 -   <span class="signature">[`fibpoly( n, x )`][@stdlib/math/base/tools/fibpoly]</span><span class="delimiter">: </span><span class="description">evaluate a Fibonacci polynomial.</span>
 -   <span class="signature">[`hermitepoly( n, x )`][@stdlib/math/base/tools/hermitepoly]</span><span class="delimiter">: </span><span class="description">evaluate a physicist's Hermite polynomial.</span>
 -   <span class="signature">[`lucaspoly( n, x )`][@stdlib/math/base/tools/lucaspoly]</span><span class="delimiter">: </span><span class="description">evaluate a Lucas polynomial.</span>
--   <span class="signature">[`normhermitepoly( n, x )`][@stdlib/math/base/tools/normhermitepoly]</span><span class="delimiter">: </span><span class="description">evaluate a normalized Hermite polynomial.</span>
+-   <span class="signature">[`normhermitepoly( n, x )`][@stdlib/math/base/tools/normhermitepoly]</span><span class="delimiter">: </span><span class="description">evaluate a normalized Hermite polynomial using double-precision floating-point arithmetic.</span>
 -   <span class="signature">[`sumSeries( generator[, options ] )`][@stdlib/math/base/tools/sum-series]</span><span class="delimiter">: </span><span class="description">compute the sum of an infinite series.</span>
 
 </div>
@@ -107,21 +103,11 @@ var o = tools;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var tools = require( '@stdlib/math-base-tools' );
 
 console.log( objectKeys( tools ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -210,21 +196,25 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/tools/continued-fraction]: https://github.com/stdlib-js/math-base-tools-continued-fraction/tree/umd
+[@stdlib/math/base/tools/continued-fraction]: https://github.com/stdlib-js/math-base-tools-continued-fraction
 
-[@stdlib/math/base/tools/evalpoly]: https://github.com/stdlib-js/math-base-tools-evalpoly/tree/umd
+[@stdlib/math/base/tools/evalpoly]: https://github.com/stdlib-js/math-base-tools-evalpoly
 
-[@stdlib/math/base/tools/evalrational]: https://github.com/stdlib-js/math-base-tools-evalrational/tree/umd
+[@stdlib/math/base/tools/evalpolyf]: https://github.com/stdlib-js/math-base-tools-evalpolyf
 
-[@stdlib/math/base/tools/fibpoly]: https://github.com/stdlib-js/math-base-tools-fibpoly/tree/umd
+[@stdlib/math/base/tools/evalrational]: https://github.com/stdlib-js/math-base-tools-evalrational
 
-[@stdlib/math/base/tools/hermitepoly]: https://github.com/stdlib-js/math-base-tools-hermitepoly/tree/umd
+[@stdlib/math/base/tools/evalrationalf]: https://github.com/stdlib-js/math-base-tools-evalrationalf
 
-[@stdlib/math/base/tools/lucaspoly]: https://github.com/stdlib-js/math-base-tools-lucaspoly/tree/umd
+[@stdlib/math/base/tools/fibpoly]: https://github.com/stdlib-js/math-base-tools-fibpoly
 
-[@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math-base-tools-normhermitepoly/tree/umd
+[@stdlib/math/base/tools/hermitepoly]: https://github.com/stdlib-js/math-base-tools-hermitepoly
 
-[@stdlib/math/base/tools/sum-series]: https://github.com/stdlib-js/math-base-tools-sum-series/tree/umd
+[@stdlib/math/base/tools/lucaspoly]: https://github.com/stdlib-js/math-base-tools-lucaspoly
+
+[@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math-base-tools-normhermitepoly
+
+[@stdlib/math/base/tools/sum-series]: https://github.com/stdlib-js/math-base-tools-sum-series
 
 <!-- </toc-links> -->
 
