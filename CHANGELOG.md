@@ -4,31 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-09-01)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+No changes reported for this release.
 
 </section>
 
 <!-- /.release -->
+
+<section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
 
@@ -55,18 +39,6 @@
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpoly-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalpoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -149,18 +121,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="math-base-tools-evalrational-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalrational](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="math-base-tools-evalrational-compile-v0.3.0">
 
 #### [@stdlib/math/base/tools/evalrational-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile)
@@ -222,54 +182,6 @@ No changes reported for this release.</details>
 <!-- /.features -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-fibpoly-v0.3.0">
-
-#### [@stdlib/math/base/tools/fibpoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/fibpoly)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-hermitepoly-v0.3.0">
-
-#### [@stdlib/math/base/tools/hermitepoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/hermitepoly)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-lucaspoly-v0.3.0">
-
-#### [@stdlib/math/base/tools/lucaspoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/lucaspoly)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-normhermitepoly-v0.3.0">
-
-#### [@stdlib/math/base/tools/normhermitepoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/normhermitepoly)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -390,23 +302,17 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-24)
 
 <section class="packages">
 
 ### Packages
-
-<section class="package" id="math-base-tools-evalrational-compile-v0.2.1">
-
-#### [@stdlib/math/base/tools/evalrational-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
 
 </section>
 
@@ -438,95 +344,17 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
 ## 0.2.0 (2024-02-14)
 
 <section class="packages">
 
 ### Packages
-
-<section class="package" id="math-base-tools-v0.2.0">
-
-#### [@stdlib/math/base/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-continued-fraction-v0.2.0">
-
-#### [@stdlib/math/base/tools/continued-fraction](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/continued-fraction)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpoly-compile-v0.2.0">
-
-#### [@stdlib/math/base/tools/evalpoly-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly-compile)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrational-compile-v0.2.0">
-
-#### [@stdlib/math/base/tools/evalrational-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrational-compile-c-v0.2.0">
-
-#### [@stdlib/math/base/tools/evalrational-compile-c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile-c)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-fibpoly-v0.2.0">
-
-#### [@stdlib/math/base/tools/fibpoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/fibpoly)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-sum-series-v0.2.0">
-
-#### [@stdlib/math/base/tools/sum-series](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/sum-series)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
 
 </section>
 
@@ -568,6 +396,12 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
 ## 0.1.0 (2023-09-24)
 
 <section class="packages">
@@ -594,8 +428,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -629,8 +462,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -664,8 +496,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -699,8 +530,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -734,8 +564,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -769,8 +598,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -804,8 +632,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -839,8 +666,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -874,8 +700,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -909,8 +734,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -944,8 +768,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -979,8 +802,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -1014,8 +836,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -1037,8 +858,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -1077,135 +897,67 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.6">
+
 ## 0.0.6 (2022-02-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.5">
 
 ## 0.0.5 (2021-08-22)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.4">
 
 ## 0.0.4 (2021-07-07)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.3">
 
 ## 0.0.3 (2021-06-27)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.2">
 
 ## 0.0.2 (2021-06-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.1">
 
 ## 0.0.1 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 
