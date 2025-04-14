@@ -4,9 +4,30 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-04-14)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`cbf1382`](https://github.com/stdlib-js/stdlib/commit/cbf1382a4cad52ed7c30d74282eb9a75474d32e6) - **docs:** update related packages sections [(#4964)](https://github.com/stdlib-js/stdlib/pull/4964) _(by stdlib-bot)_
+-   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
