@@ -3,7 +3,30 @@
   "version": "0.3.0",
   "description": "Base math tools.",
   "license": "Apache-2.0",
-  "main": "./index.js",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -12,6 +35,90 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/math-base-tools-continued-fraction": "^0.2.2",
+    "@stdlib/math-base-tools-evalpoly": "^0.2.2",
+    "@stdlib/math-base-tools-evalpolyf": "^0.1.1",
+    "@stdlib/math-base-tools-evalrational": "^0.2.2",
+    "@stdlib/math-base-tools-evalrationalf": "^0.1.1",
+    "@stdlib/math-base-tools-fibpoly": "^0.2.2",
+    "@stdlib/math-base-tools-hermitepoly": "^0.2.2",
+    "@stdlib/math-base-tools-lucaspoly": "^0.2.2",
+    "@stdlib/math-base-tools-normhermitepoly": "^0.2.2",
+    "@stdlib/math-base-tools-normhermitepolyf": "^0.0.2",
+    "@stdlib/math-base-tools-sum-series": "^0.2.2",
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+  },
+  "devDependencies": {
+    "@stdlib/array-float32": "^0.2.2",
+    "@stdlib/array-float64": "^0.2.2",
+    "@stdlib/array-zeros": "^0.2.2",
+    "@stdlib/assert-has-generator-support": "^0.2.2",
+    "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/assert-is-integer": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/console-log-each": "^0.2.2",
+    "@stdlib/constants-float32-eps": "^0.2.2",
+    "@stdlib/constants-float32-smallest-normal": "^0.2.2",
+    "@stdlib/constants-float64-eps": "^0.2.2",
+    "@stdlib/constants-float64-ninf": "^0.2.2",
+    "@stdlib/constants-float64-pinf": "^0.2.2",
+    "@stdlib/constants-float64-sqrt-two": "^0.2.2",
+    "@stdlib/fs-read-file": "^0.2.2",
+    "@stdlib/function-ctor": "^0.2.2",
+    "@stdlib/math-base-assert-is-integer": "^0.2.5",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
+    "@stdlib/math-base-assert-is-nanf": "^0.2.2",
+    "@stdlib/math-base-special-abs": "^0.2.2",
+    "@stdlib/math-base-special-absf": "^0.2.2",
+    "@stdlib/math-base-special-binomcoef": "^0.2.3",
+    "@stdlib/math-base-special-ceil": "^0.2.2",
+    "@stdlib/math-base-special-fibonacci": "^0.2.2",
+    "@stdlib/math-base-special-floor": "^0.2.3",
+    "@stdlib/math-base-special-log1p": "^0.2.3",
+    "@stdlib/math-base-special-lucas": "^0.2.3",
+    "@stdlib/math-base-special-negafibonacci": "^0.3.0",
+    "@stdlib/math-base-special-negalucas": "^0.2.2",
+    "@stdlib/math-base-special-pow": "^0.3.0",
+    "@stdlib/math-base-special-round": "^0.3.0",
+    "@stdlib/math-base-special-tan": "^0.3.0",
+    "@stdlib/number-float64-base-to-float32": "^0.2.2",
+    "@stdlib/random-array-discrete-uniform": "^0.2.1",
+    "@stdlib/random-array-uniform": "^0.2.1",
+    "@stdlib/random-base-discrete-uniform": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-uniform": "^0.2.1",
+    "@stdlib/strided-base-dmap": "^0.2.2",
+    "@stdlib/strided-base-smap": "^0.2.2",
+    "@stdlib/string-base-uppercase": "^1.0.0",
+    "@stdlib/string-replace": "^0.2.2",
+    "@stdlib/utils-constant-function": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-eval": "^0.2.2",
+    "@stdlib/utils-keys": "^0.2.2",
+    "@stdlib/utils-try-require": "^0.2.2",
+    "proxyquire": "^2.0.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdmath",
