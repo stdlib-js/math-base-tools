@@ -4,15 +4,49 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-08-18)
 
-<section class="packages">
+<section class="features">
 
-### Packages
+### Features
+
+-   [`1248b56`](https://github.com/stdlib-js/stdlib/commit/1248b5625cf60b24063081ccbf5c34a85f951fa3) - add `normhermitepolyf` to namespace
 
 </section>
 
-<!-- /.packages -->
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - correct variable name typo in hornerDescending function
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="reverts">
+
+### Reverts
+
+-   [`6c22949`](https://github.com/stdlib-js/stdlib/commit/6c22949a73493c90e4b814373ab8d8600395c5fd) - fix: correct variable name typo in hornerDescending function
+
+</section>
+
+<!-- /.reverts -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 3 issues were closed in this release:
+
+[#6737](https://github.com/stdlib-js/stdlib/issues/6737), [#7542](https://github.com/stdlib-js/stdlib/issues/7542), [#7781](https://github.com/stdlib-js/stdlib/issues/7781)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -20,6 +54,16 @@
 
 <details>
 
+-   [`1248b56`](https://github.com/stdlib-js/stdlib/commit/1248b5625cf60b24063081ccbf5c34a85f951fa3) - **feat:** add `normhermitepolyf` to namespace _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`f764585`](https://github.com/stdlib-js/stdlib/commit/f764585ba248d15ad117131f623afb95f9cb3ea7) - **chore:** fix EditorConfig lint errors [(#7790)](https://github.com/stdlib-js/stdlib/pull/7790) _(by Lalit Narayan Yadav)_
+-   [`b36a42b`](https://github.com/stdlib-js/stdlib/commit/b36a42b7972083aa7f8eeb7e9ba71f9a14e684a6) - **chore:** fix EditorConfig lint errors [(#7672)](https://github.com/stdlib-js/stdlib/pull/7672) _(by Lalit Narayan Yadav)_
+-   [`6c22949`](https://github.com/stdlib-js/stdlib/commit/6c22949a73493c90e4b814373ab8d8600395c5fd) - **revert:** fix: correct variable name typo in hornerDescending function _(by Athan Reines)_
+-   [`a8f857e`](https://github.com/stdlib-js/stdlib/commit/a8f857eae7ba49b5656e391f1ff8cc088001a5b0) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`0ee3577`](https://github.com/stdlib-js/stdlib/commit/0ee35771247780049a0eb19c1c9ceaa914b07efd) - **fix:** correct variable name typo in hornerDescending function _(by Philipp Burckhardt)_
+-   [`bc274ce`](https://github.com/stdlib-js/stdlib/commit/bc274ce12ea4a48aa9f28316edc648e7cd2c0262) - **chore:** fix EditorConfig lint errors (issue #6737) [(#6742)](https://github.com/stdlib-js/stdlib/pull/6742) _(by Nishant singh)_
 -   [`cbf1382`](https://github.com/stdlib-js/stdlib/commit/cbf1382a4cad52ed7c30d74282eb9a75474d32e6) - **docs:** update related packages sections [(#4964)](https://github.com/stdlib-js/stdlib/pull/4964) _(by stdlib-bot)_
 -   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
 
@@ -29,6 +73,21 @@
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Lalit Narayan Yadav
+-   Nishant singh
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -37,44 +96,17 @@
 
 ## 0.3.0 (2024-07-28)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-base-tools-v0.3.0">
-
-#### [@stdlib/math/base/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
+-   [`3c7bd5e`](https://github.com/stdlib-js/stdlib/commit/3c7bd5ef541483eb743a07be4b320a126f4189e8) - add `math/base/tools/normhermitepolyf` [(#2151)](https://github.com/stdlib-js/stdlib/pull/2151)
 -   [`6affd28`](https://github.com/stdlib-js/stdlib/commit/6affd2816c0458b63cd17f496f823850db9235e5) - update namespace TypeScript declarations [(#2032)](https://github.com/stdlib-js/stdlib/pull/2032)
 -   [`5564766`](https://github.com/stdlib-js/stdlib/commit/55647661f551a753ba247511606eba2ee4766db8) - add `evalrationalf` to namespace
+-   [`e27f134`](https://github.com/stdlib-js/stdlib/commit/e27f134b99d01c7949d8ad7cb9530463dd90b3bc) - add `math/base/tools/evalrationalf`
 -   [`bea580c`](https://github.com/stdlib-js/stdlib/commit/bea580c60303930521a921a39ccb35cd08a31f71) - add `evalpolyf` to namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpoly-compile-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalpoly-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly-compile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`df509a1`](https://github.com/stdlib-js/stdlib/commit/df509a1e120c74e40cfdceb78c69e32636229f2f) - add `math/base/tools/evalpolyf`
+-   [`c6c2a16`](https://github.com/stdlib-js/stdlib/commit/c6c2a1699be1824b46b2aa79a85a44fe3477a18e) - add support for single-precision floating-point arithmetic emulation
 -   [`c4ccb4b`](https://github.com/stdlib-js/stdlib/commit/c4ccb4bae71645f82afa736a9efe81806ffa97d1) - add support for single-precision floating-point arithmetic emulation
 
 </section>
@@ -83,168 +115,16 @@
 
 <section class="bug-fixes">
 
-##### Bug Fixes
-
--   [`1cfdb61`](https://github.com/stdlib-js/stdlib/commit/1cfdb614d9708ea11ac9055869928cba52e7d73c) - allow array-like objects
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpoly-compile-c-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalpoly-compile-c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly-compile-c)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
+### Bug Fixes
 
 -   [`378c108`](https://github.com/stdlib-js/stdlib/commit/378c108278799749f256989970815ad6b263a3e8) - ensure suffix is appended for non-integer values
+-   [`1cfdb61`](https://github.com/stdlib-js/stdlib/commit/1cfdb614d9708ea11ac9055869928cba52e7d73c) - allow array-like objects
+-   [`deff338`](https://github.com/stdlib-js/stdlib/commit/deff338403ef0bdc936e5f367bfbefbab76f2a05) - allow array-like objects
 -   [`8060caf`](https://github.com/stdlib-js/stdlib/commit/8060caf34407daeaddc41089a0521853710f40ef) - allow array-like objects
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpolyf-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalpolyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpolyf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`df509a1`](https://github.com/stdlib-js/stdlib/commit/df509a1e120c74e40cfdceb78c69e32636229f2f) - add `math/base/tools/evalpolyf`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrational-compile-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalrational-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c6c2a16`](https://github.com/stdlib-js/stdlib/commit/c6c2a1699be1824b46b2aa79a85a44fe3477a18e) - add support for single-precision floating-point arithmetic emulation
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrational-compile-c-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalrational-compile-c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile-c)
-
-<details>
-
-<section class="bug-fixes">
-
-##### Bug Fixes
-
--   [`deff338`](https://github.com/stdlib-js/stdlib/commit/deff338403ef0bdc936e5f367bfbefbab76f2a05) - allow array-like objects
-
-</section>
-
-<!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrationalf-v0.3.0">
-
-#### [@stdlib/math/base/tools/evalrationalf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrationalf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e27f134`](https://github.com/stdlib-js/stdlib/commit/e27f134b99d01c7949d8ad7cb9530463dd90b3bc) - add `math/base/tools/evalrationalf`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-normhermitepolyf-v0.3.0">
-
-#### [@stdlib/math/base/tools/normhermitepolyf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/normhermitepolyf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3c7bd5e`](https://github.com/stdlib-js/stdlib/commit/3c7bd5ef541483eb743a07be4b320a126f4189e8) - add `math/base/tools/normhermitepolyf` [(#2151)](https://github.com/stdlib-js/stdlib/pull/2151)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#2029](https://github.com/stdlib-js/stdlib/issues/2029)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="issues">
 
@@ -257,21 +137,6 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 4 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Daniel Yu
--   Gunj Joshi
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -323,6 +188,21 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 4 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Daniel Yu
+-   Gunj Joshi
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -330,26 +210,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.1">
 
 ## 0.2.1 (2024-02-24)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -365,6 +225,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -372,27 +244,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 <section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-14)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -417,6 +268,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -425,455 +289,15 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="math-base-tools-v0.1.0">
-
-#### [@stdlib/math/base/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-continued-fraction-v0.1.0">
-
-#### [@stdlib/math/base/tools/continued-fraction](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/continued-fraction)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpoly-v0.1.0">
-
-#### [@stdlib/math/base/tools/evalpoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpoly-compile-v0.1.0">
-
-#### [@stdlib/math/base/tools/evalpoly-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly-compile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalpoly-compile-c-v0.1.0">
-
-#### [@stdlib/math/base/tools/evalpoly-compile-c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalpoly-compile-c)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrational-v0.1.0">
-
-#### [@stdlib/math/base/tools/evalrational](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrational-compile-v0.1.0">
-
-#### [@stdlib/math/base/tools/evalrational-compile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-evalrational-compile-c-v0.1.0">
-
-#### [@stdlib/math/base/tools/evalrational-compile-c](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/evalrational-compile-c)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-fibpoly-v0.1.0">
-
-#### [@stdlib/math/base/tools/fibpoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/fibpoly)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-hermitepoly-v0.1.0">
-
-#### [@stdlib/math/base/tools/hermitepoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/hermitepoly)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-lucaspoly-v0.1.0">
-
-#### [@stdlib/math/base/tools/lucaspoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/lucaspoly)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-normhermitepoly-v0.1.0">
-
-#### [@stdlib/math/base/tools/normhermitepoly](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/normhermitepoly)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="math-base-tools-sum-series-v0.1.0">
-
-#### [@stdlib/math/base/tools/sum-series](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/base/tools/sum-series)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -886,18 +310,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -917,6 +329,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 

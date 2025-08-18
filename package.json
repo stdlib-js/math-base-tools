@@ -45,6 +45,7 @@
     "@stdlib/math-base-tools-hermitepoly": "^0.2.2",
     "@stdlib/math-base-tools-lucaspoly": "^0.2.2",
     "@stdlib/math-base-tools-normhermitepoly": "^0.2.2",
+    "@stdlib/math-base-tools-normhermitepolyf": "^0.0.2",
     "@stdlib/math-base-tools-sum-series": "^0.2.2",
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
