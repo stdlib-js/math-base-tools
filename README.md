@@ -35,20 +35,32 @@ limitations under the License.
 
 > Base math tools.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-tools
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { continuedFraction, evalpoly, evalpolyf, evalrational, evalrationalf, fibpoly, hermitepoly, lucaspoly, normhermitepoly, normhermitepolyf, sumSeries } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@esm/index.mjs';
+var tools = require( '@stdlib/math-base-tools' );
 ```
 
 #### tools
@@ -73,6 +85,7 @@ var o = tools;
 -   <span class="signature">[`hermitepoly( n, x )`][@stdlib/math/base/tools/hermitepoly]</span><span class="delimiter">: </span><span class="description">evaluate a physicist's Hermite polynomial.</span>
 -   <span class="signature">[`lucaspoly( n, x )`][@stdlib/math/base/tools/lucaspoly]</span><span class="delimiter">: </span><span class="description">evaluate a Lucas polynomial.</span>
 -   <span class="signature">[`normhermitepoly( n, x )`][@stdlib/math/base/tools/normhermitepoly]</span><span class="delimiter">: </span><span class="description">evaluate a normalized Hermite polynomial using double-precision floating-point arithmetic.</span>
+-   <span class="signature">[`normhermitepolyf( n, x )`][@stdlib/math/base/tools/normhermitepolyf]</span><span class="delimiter">: </span><span class="description">evaluate a normalized Hermite polynomial using single-precision floating-point arithmetic.</span>
 -   <span class="signature">[`sumSeries( generator[, options ] )`][@stdlib/math/base/tools/sum-series]</span><span class="delimiter">: </span><span class="description">compute the sum of an infinite series.</span>
 
 </div>
@@ -91,20 +104,11 @@ var o = tools;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var tools = require( '@stdlib/math-base-tools' );
 
 console.log( objectKeys( tools ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -128,7 +132,7 @@ console.log( objectKeys( tools ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -193,25 +197,27 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/base/tools/continued-fraction]: https://github.com/stdlib-js/math-base-tools-continued-fraction/tree/esm
+[@stdlib/math/base/tools/continued-fraction]: https://github.com/stdlib-js/math-base-tools-continued-fraction
 
-[@stdlib/math/base/tools/evalpoly]: https://github.com/stdlib-js/math-base-tools-evalpoly/tree/esm
+[@stdlib/math/base/tools/evalpoly]: https://github.com/stdlib-js/math-base-tools-evalpoly
 
-[@stdlib/math/base/tools/evalpolyf]: https://github.com/stdlib-js/math-base-tools-evalpolyf/tree/esm
+[@stdlib/math/base/tools/evalpolyf]: https://github.com/stdlib-js/math-base-tools-evalpolyf
 
-[@stdlib/math/base/tools/evalrational]: https://github.com/stdlib-js/math-base-tools-evalrational/tree/esm
+[@stdlib/math/base/tools/evalrational]: https://github.com/stdlib-js/math-base-tools-evalrational
 
-[@stdlib/math/base/tools/evalrationalf]: https://github.com/stdlib-js/math-base-tools-evalrationalf/tree/esm
+[@stdlib/math/base/tools/evalrationalf]: https://github.com/stdlib-js/math-base-tools-evalrationalf
 
-[@stdlib/math/base/tools/fibpoly]: https://github.com/stdlib-js/math-base-tools-fibpoly/tree/esm
+[@stdlib/math/base/tools/fibpoly]: https://github.com/stdlib-js/math-base-tools-fibpoly
 
-[@stdlib/math/base/tools/hermitepoly]: https://github.com/stdlib-js/math-base-tools-hermitepoly/tree/esm
+[@stdlib/math/base/tools/hermitepoly]: https://github.com/stdlib-js/math-base-tools-hermitepoly
 
-[@stdlib/math/base/tools/lucaspoly]: https://github.com/stdlib-js/math-base-tools-lucaspoly/tree/esm
+[@stdlib/math/base/tools/lucaspoly]: https://github.com/stdlib-js/math-base-tools-lucaspoly
 
-[@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math-base-tools-normhermitepoly/tree/esm
+[@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math-base-tools-normhermitepoly
 
-[@stdlib/math/base/tools/sum-series]: https://github.com/stdlib-js/math-base-tools-sum-series/tree/esm
+[@stdlib/math/base/tools/normhermitepolyf]: https://github.com/stdlib-js/math-base-tools-normhermitepolyf
+
+[@stdlib/math/base/tools/sum-series]: https://github.com/stdlib-js/math-base-tools-sum-series
 
 <!-- </toc-links> -->
 
