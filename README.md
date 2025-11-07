@@ -85,6 +85,7 @@ var o = tools;
 -   <span class="signature">[`hermitepoly( n, x )`][@stdlib/math/base/tools/hermitepoly]</span><span class="delimiter">: </span><span class="description">evaluate a physicist's Hermite polynomial.</span>
 -   <span class="signature">[`lucaspoly( n, x )`][@stdlib/math/base/tools/lucaspoly]</span><span class="delimiter">: </span><span class="description">evaluate a Lucas polynomial.</span>
 -   <span class="signature">[`normhermitepoly( n, x )`][@stdlib/math/base/tools/normhermitepoly]</span><span class="delimiter">: </span><span class="description">evaluate a normalized Hermite polynomial using double-precision floating-point arithmetic.</span>
+-   <span class="signature">[`normhermitepolyf( n, x )`][@stdlib/math/base/tools/normhermitepolyf]</span><span class="delimiter">: </span><span class="description">evaluate a normalized Hermite polynomial using single-precision floating-point arithmetic.</span>
 -   <span class="signature">[`sumSeries( generator[, options ] )`][@stdlib/math/base/tools/sum-series]</span><span class="delimiter">: </span><span class="description">compute the sum of an infinite series.</span>
 
 </div>
@@ -213,6 +214,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/tools/lucaspoly]: https://github.com/stdlib-js/math-base-tools-lucaspoly
 
 [@stdlib/math/base/tools/normhermitepoly]: https://github.com/stdlib-js/math-base-tools-normhermitepoly
+
+[@stdlib/math/base/tools/normhermitepolyf]: https://github.com/stdlib-js/math-base-tools-normhermitepolyf
 
 [@stdlib/math/base/tools/sum-series]: https://github.com/stdlib-js/math-base-tools-sum-series
 
