@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.4.0">
 
-## Unreleased (2025-11-07)
+## 0.4.0 (2026-01-30)
 
 <section class="features">
 
@@ -41,9 +41,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#6737](https://github.com/stdlib-js/stdlib/issues/6737), [#7542](https://github.com/stdlib-js/stdlib/issues/7542), [#7781](https://github.com/stdlib-js/stdlib/issues/7781), [#8099](https://github.com/stdlib-js/stdlib/issues/8099)
+[#6737](https://github.com/stdlib-js/stdlib/issues/6737), [#7542](https://github.com/stdlib-js/stdlib/issues/7542), [#7781](https://github.com/stdlib-js/stdlib/issues/7781), [#8099](https://github.com/stdlib-js/stdlib/issues/8099), [#8566](https://github.com/stdlib-js/stdlib/issues/8566), [#9402](https://github.com/stdlib-js/stdlib/issues/9402), [#9506](https://github.com/stdlib-js/stdlib/issues/9506)
 
 </section>
 
@@ -55,6 +55,10 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`27d5d30`](https://github.com/stdlib-js/stdlib/commit/27d5d30af2380909aa925ce955fb7a4b79d5df43) - **style:** fix EditorConfig lint errors [(#9510)](https://github.com/stdlib-js/stdlib/pull/9510) _(by kaushal-kumar-it)_
+-   [`a55e19f`](https://github.com/stdlib-js/stdlib/commit/a55e19f3343b4a34486a5c109805bbc52e4dbb16) - **test:** replace t.true with t.strictEqual so tests actually check main export _(by Philipp Burckhardt)_
+-   [`62d2f47`](https://github.com/stdlib-js/stdlib/commit/62d2f478545ec223c81f6d22b3456ac88329b298) - **chore:** fix EditorConfig lint errors [(#9409)](https://github.com/stdlib-js/stdlib/pull/9409) _(by DivitJain26)_
+-   [`50453ac`](https://github.com/stdlib-js/stdlib/commit/50453ac1c17c648d7ddcc247b8e142d73a64dece) - **chore:** fix EditorConfig lint errors [(#8570)](https://github.com/stdlib-js/stdlib/pull/8570) _(by Aman Singh)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`beb375b`](https://github.com/stdlib-js/stdlib/commit/beb375b423e52830b3abc543fa7a0c2b06eddfd3) - **feat:** update `math/base/tools` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`af59fdf`](https://github.com/stdlib-js/stdlib/commit/af59fdfb5f2aae5ced449bd6ccddc012047f0089) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -84,13 +88,16 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Singh
 -   Athan Reines
+-   DivitJain26
 -   Lalit Narayan Yadav
 -   Nishant singh
 -   Payal Goswami
 -   Philipp Burckhardt
+-   kaushal-kumar-it
 
 </section>
 
