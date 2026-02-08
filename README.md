@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@esm/index.mjs';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@v0.4.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { continuedFraction, evalpoly, evalpolyf, evalrational, evalrationalf, fibpoly, hermitepoly, lucaspoly, normhermitepoly, normhermitepolyf, sumSeries } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@esm/index.mjs';
+import { continuedFraction, evalpoly, evalpolyf, evalrational, evalrationalf, fibpoly, hermitepoly, lucaspoly, normhermitepoly, normhermitepolyf, sumSeries } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@v0.4.1-esm/index.mjs';
 ```
 
 #### tools
@@ -99,7 +99,7 @@ var o = tools;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@esm/index.mjs';
+import tools from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools@v0.4.1-esm/index.mjs';
 
 console.log( objectKeys( tools ) );
 
