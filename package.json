@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/math-base-tools-chebyshev-series": "github:stdlib-js/math-base-tools-chebyshev-series#main",
     "@stdlib/math-base-tools-continued-fraction": "^0.2.3",
     "@stdlib/math-base-tools-evalpoly": "^0.2.3",
     "@stdlib/math-base-tools-evalpolyf": "^0.1.2",
@@ -58,6 +59,7 @@
     "@stdlib/assert-is-integer": "^0.2.3",
     "@stdlib/assert-is-string": "^0.2.3",
     "@stdlib/console-log-each": "^0.2.4",
+    "@stdlib/console-log-each-map": "^0.1.1",
     "@stdlib/constants-float32-eps": "^0.2.3",
     "@stdlib/constants-float32-smallest-normal": "^0.2.3",
     "@stdlib/constants-float64-eps": "^0.2.3",
@@ -91,6 +93,7 @@
     "@stdlib/strided-base-dmap": "^0.2.3",
     "@stdlib/strided-base-smap": "^0.2.3",
     "@stdlib/string-base-uppercase": "^1.0.1",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/string-replace": "^0.2.3",
     "@stdlib/utils-constant-function": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",

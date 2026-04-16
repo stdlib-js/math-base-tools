@@ -4,15 +4,26 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-28)
+## Unreleased (2026-04-16)
+
+<section class="features">
+
+### Features
+
+-   [`66bc5bb`](https://github.com/stdlib-js/stdlib/commit/66bc5bb35ab356d41bf84072b5048663e1fb11c5) - add `chebyshevSeries` to namespace
+-   [`82aae9b`](https://github.com/stdlib-js/stdlib/commit/82aae9bd2f57896eebb96d48624549c2b622a4fc) - add `math/base/tools/chebyshev-series` [(#11470)](https://github.com/stdlib-js/stdlib/pull/11470)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#10246](https://github.com/stdlib-js/stdlib/issues/10246), [#10692](https://github.com/stdlib-js/stdlib/issues/10692), [#11044](https://github.com/stdlib-js/stdlib/issues/11044)
+[#10246](https://github.com/stdlib-js/stdlib/issues/10246), [#10692](https://github.com/stdlib-js/stdlib/issues/10692), [#11044](https://github.com/stdlib-js/stdlib/issues/11044), [#11246](https://github.com/stdlib-js/stdlib/issues/11246)
 
 </section>
 
@@ -24,6 +35,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`66bc5bb`](https://github.com/stdlib-js/stdlib/commit/66bc5bb35ab356d41bf84072b5048663e1fb11c5) - **feat:** add `chebyshevSeries` to namespace _(by Athan Reines)_
+-   [`82aae9b`](https://github.com/stdlib-js/stdlib/commit/82aae9bd2f57896eebb96d48624549c2b622a4fc) - **feat:** add `math/base/tools/chebyshev-series` [(#11470)](https://github.com/stdlib-js/stdlib/pull/11470) _(by anee3, Athan Reines, stdlib-bot)_
+-   [`6cb6e42`](https://github.com/stdlib-js/stdlib/commit/6cb6e42b51ae93e10ad1da805bc6b8922f46697a) - **chore:** fix EditorConfig lint errors [(#11256)](https://github.com/stdlib-js/stdlib/pull/11256) _(by Mandeep2333)_
 -   [`fda6d89`](https://github.com/stdlib-js/stdlib/commit/fda6d8918aaab28bd1b422d32314970d0fb8215b) - **chore:** fix EditorConfig lint errors [(#11046)](https://github.com/stdlib-js/stdlib/pull/11046) _(by Baixiaochun)_
 -   [`a24740a`](https://github.com/stdlib-js/stdlib/commit/a24740a8441afceaef4ec4f0956fdb32b66c2f36) - **chore:** fix EditorConfig lint errors [(#10695)](https://github.com/stdlib-js/stdlib/pull/10695) _(by Partha Das)_
 -   [`f7191c0`](https://github.com/stdlib-js/stdlib/commit/f7191c093f0607ad6de9b7a21612f36bb3a84d90) - **chore:** use relative paths and remove trailing slashes in require paths _(by Philipp Burckhardt)_
@@ -39,12 +53,15 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Baixiaochun
 -   Bhargav Dabhade
+-   Mandeep2333
 -   Partha Das
 -   Philipp Burckhardt
+-   anee3
 
 </section>
 
