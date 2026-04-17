@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-16)
+## Unreleased (2026-04-17)
 
 <section class="features">
 
@@ -35,6 +35,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
 -   [`66bc5bb`](https://github.com/stdlib-js/stdlib/commit/66bc5bb35ab356d41bf84072b5048663e1fb11c5) - **feat:** add `chebyshevSeries` to namespace _(by Athan Reines)_
 -   [`82aae9b`](https://github.com/stdlib-js/stdlib/commit/82aae9bd2f57896eebb96d48624549c2b622a4fc) - **feat:** add `math/base/tools/chebyshev-series` [(#11470)](https://github.com/stdlib-js/stdlib/pull/11470) _(by anee3, Athan Reines, stdlib-bot)_
 -   [`6cb6e42`](https://github.com/stdlib-js/stdlib/commit/6cb6e42b51ae93e10ad1da805bc6b8922f46697a) - **chore:** fix EditorConfig lint errors [(#11256)](https://github.com/stdlib-js/stdlib/pull/11256) _(by Mandeep2333)_

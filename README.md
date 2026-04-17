@@ -76,6 +76,7 @@ var o = tools;
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`chebyshevSeries( x, c )`][@stdlib/math/base/tools/chebyshev-series]</span><span class="delimiter">: </span><span class="description">evaluate a Chebyshev series using double-precision floating-point arithmetic.</span>
 -   <span class="signature">[`continuedFraction( generator[, options ] )`][@stdlib/math/base/tools/continued-fraction]</span><span class="delimiter">: </span><span class="description">continued fraction approximation.</span>
 -   <span class="signature">[`evalpoly( c, x )`][@stdlib/math/base/tools/evalpoly]</span><span class="delimiter">: </span><span class="description">evaluate a polynomial using double-precision floating-point arithmetic.</span>
 -   <span class="signature">[`evalpolyf( c, x )`][@stdlib/math/base/tools/evalpolyf]</span><span class="delimiter">: </span><span class="description">evaluate a polynomial using single-precision floating-point arithmetic.</span>
@@ -196,6 +197,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-tools/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/math/base/tools/chebyshev-series]: https://github.com/stdlib-js/math-base-tools-chebyshev-series
 
 [@stdlib/math/base/tools/continued-fraction]: https://github.com/stdlib-js/math-base-tools-continued-fraction
 
