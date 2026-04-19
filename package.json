@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/math-base-tools-chebyshev-series": "github:stdlib-js/math-base-tools-chebyshev-series#main",
+    "@stdlib/math-base-tools-chebyshev-seriesf": "github:stdlib-js/math-base-tools-chebyshev-seriesf#main",
     "@stdlib/math-base-tools-continued-fraction": "^0.2.3",
     "@stdlib/math-base-tools-evalpoly": "^0.2.3",
     "@stdlib/math-base-tools-evalpolyf": "^0.1.2",

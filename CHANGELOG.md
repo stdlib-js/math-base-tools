@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-17)
+## Unreleased (2026-04-19)
 
 <section class="features">
 
 ### Features
 
+-   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - add `chebyshevSeriesf` to namespace
+-   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564)
 -   [`66bc5bb`](https://github.com/stdlib-js/stdlib/commit/66bc5bb35ab356d41bf84072b5048663e1fb11c5) - add `chebyshevSeries` to namespace
 -   [`82aae9b`](https://github.com/stdlib-js/stdlib/commit/82aae9bd2f57896eebb96d48624549c2b622a4fc) - add `math/base/tools/chebyshev-series` [(#11470)](https://github.com/stdlib-js/stdlib/pull/11470)
 
@@ -35,6 +37,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - **feat:** add `chebyshevSeriesf` to namespace _(by Athan Reines)_
+-   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - **feat:** add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564) _(by anee3, Athan Reines)_
 -   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
 -   [`66bc5bb`](https://github.com/stdlib-js/stdlib/commit/66bc5bb35ab356d41bf84072b5048663e1fb11c5) - **feat:** add `chebyshevSeries` to namespace _(by Athan Reines)_
 -   [`82aae9b`](https://github.com/stdlib-js/stdlib/commit/82aae9bd2f57896eebb96d48624549c2b622a4fc) - **feat:** add `math/base/tools/chebyshev-series` [(#11470)](https://github.com/stdlib-js/stdlib/pull/11470) _(by anee3, Athan Reines, stdlib-bot)_
