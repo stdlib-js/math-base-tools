@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-20)
+## Unreleased (2026-05-04)
 
 <section class="features">
 
@@ -37,6 +37,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
+-   [`d689d2d`](https://github.com/stdlib-js/stdlib/commit/d689d2dcba1570eedbbe3b7689dcbe1921ba11eb) - **chore:** propagate `node/` -> `n/` eslint plugin prefix update across README directives [(#11826)](https://github.com/stdlib-js/stdlib/pull/11826) _(by Philipp Burckhardt)_
+-   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
 -   [`0f96d30`](https://github.com/stdlib-js/stdlib/commit/0f96d3092e11bed46e6cd83efd770c2d6fa77af1) - **docs:** update namespace table of contents [(#11637)](https://github.com/stdlib-js/stdlib/pull/11637) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a395fc0`](https://github.com/stdlib-js/stdlib/commit/a395fc0b7b35e6367dd6990257cccde63c95f782) - **docs:** fix return values _(by Athan Reines)_
 -   [`59cfc31`](https://github.com/stdlib-js/stdlib/commit/59cfc311ef41bba1c23ce2db0368f8569ce5b38c) - **docs:** correct JSDoc return value in `math/base/tools/chebyshev-seriesf` [(#11584)](https://github.com/stdlib-js/stdlib/pull/11584) _(by Philipp Burckhardt)_
@@ -61,11 +64,12 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Baixiaochun
 -   Bhargav Dabhade
+-   Karan Anand
 -   Mandeep2333
 -   Partha Das
 -   Philipp Burckhardt
