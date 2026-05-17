@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-04)
+## Unreleased (2026-05-17)
 
 <section class="features">
 
 ### Features
 
+-   [`a615900`](https://github.com/stdlib-js/stdlib/commit/a615900caf19b4bb54ff0778986c44e6136494f7) - update `math/base/tools` TypeScript declarations [(#12165)](https://github.com/stdlib-js/stdlib/pull/12165)
 -   [`2e36fdf`](https://github.com/stdlib-js/stdlib/commit/2e36fdf188f8fe891f93ad0294059ef480e5aec2) - add `chebyshevSeriesf` to namespace
 -   [`2d1c3d6`](https://github.com/stdlib-js/stdlib/commit/2d1c3d6758dc3f7caffc15550ba945580625438d) - add `math/base/tools/chebyshev-seriesf` [(#11564)](https://github.com/stdlib-js/stdlib/pull/11564)
 -   [`66bc5bb`](https://github.com/stdlib-js/stdlib/commit/66bc5bb35ab356d41bf84072b5048663e1fb11c5) - add `chebyshevSeries` to namespace
@@ -37,6 +38,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`a615900`](https://github.com/stdlib-js/stdlib/commit/a615900caf19b4bb54ff0778986c44e6136494f7) - **feat:** update `math/base/tools` TypeScript declarations [(#12165)](https://github.com/stdlib-js/stdlib/pull/12165) _(by stdlib-bot)_
+-   [`57d46b3`](https://github.com/stdlib-js/stdlib/commit/57d46b32a484f1d2ec23ce458eb61aa2d5377f7b) - **docs:** add `stdmath` keyword to `chebyshev-series` and `chebyshev-seriesf` in `math/base/tools` [(#12011)](https://github.com/stdlib-js/stdlib/pull/12011) _(by Philipp Burckhardt)_
 -   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
 -   [`d689d2d`](https://github.com/stdlib-js/stdlib/commit/d689d2dcba1570eedbbe3b7689dcbe1921ba11eb) - **chore:** propagate `node/` -> `n/` eslint plugin prefix update across README directives [(#11826)](https://github.com/stdlib-js/stdlib/pull/11826) _(by Philipp Burckhardt)_
 -   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
