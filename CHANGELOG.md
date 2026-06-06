@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-17)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
@@ -38,6 +38,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`26b9776`](https://github.com/stdlib-js/stdlib/commit/26b977687d4383a56018ec5d4e5e101bd580c98c) - **docs:** update `math/base/tools` TypeScript declarations [(#12587)](https://github.com/stdlib-js/stdlib/pull/12587) _(by stdlib-bot)_
+-   [`cb58c26`](https://github.com/stdlib-js/stdlib/commit/cb58c2603fec6ec457e3df9de23dea8c3cf51e90) - **docs:** fix TSDoc issues in several `math/base/tools` declarations [(#12464)](https://github.com/stdlib-js/stdlib/pull/12464) _(by Philipp Burckhardt)_
 -   [`a615900`](https://github.com/stdlib-js/stdlib/commit/a615900caf19b4bb54ff0778986c44e6136494f7) - **feat:** update `math/base/tools` TypeScript declarations [(#12165)](https://github.com/stdlib-js/stdlib/pull/12165) _(by stdlib-bot)_
 -   [`57d46b3`](https://github.com/stdlib-js/stdlib/commit/57d46b32a484f1d2ec23ce458eb61aa2d5377f7b) - **docs:** add `stdmath` keyword to `chebyshev-series` and `chebyshev-seriesf` in `math/base/tools` [(#12011)](https://github.com/stdlib-js/stdlib/pull/12011) _(by Philipp Burckhardt)_
 -   [`c2b92b4`](https://github.com/stdlib-js/stdlib/commit/c2b92b4e7c4840bb859808dc0dacd97833019549) - **chore:** propagate fixes to sibling packages [(#11892)](https://github.com/stdlib-js/stdlib/pull/11892) _(by Philipp Burckhardt)_
