@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-13)
+## Unreleased (2026-07-30)
 
 <section class="features">
 
@@ -24,9 +24,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#10246](https://github.com/stdlib-js/stdlib/issues/10246), [#10692](https://github.com/stdlib-js/stdlib/issues/10692), [#11044](https://github.com/stdlib-js/stdlib/issues/11044), [#11246](https://github.com/stdlib-js/stdlib/issues/11246)
+[#10246](https://github.com/stdlib-js/stdlib/issues/10246), [#10692](https://github.com/stdlib-js/stdlib/issues/10692), [#11044](https://github.com/stdlib-js/stdlib/issues/11044), [#11246](https://github.com/stdlib-js/stdlib/issues/11246), [#12163](https://github.com/stdlib-js/stdlib/issues/12163), [#13157](https://github.com/stdlib-js/stdlib/issues/13157)
 
 </section>
 
@@ -38,6 +38,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`fab0962`](https://github.com/stdlib-js/stdlib/commit/fab096256a5ce80d8c9324da8b9535e2334629d8) - **chore:** fix JavaScript lint errors [(#13595)](https://github.com/stdlib-js/stdlib/pull/13595) _(by jichenggepeter-dev)_
+-   [`d429b7b`](https://github.com/stdlib-js/stdlib/commit/d429b7b10f275b904b9346850252b91f8219ea75) - **chore:** fix JavaScript lint errors  [(#13176)](https://github.com/stdlib-js/stdlib/pull/13176) _(by Akanksha Kumari)_
 -   [`26b9776`](https://github.com/stdlib-js/stdlib/commit/26b977687d4383a56018ec5d4e5e101bd580c98c) - **docs:** update `math/base/tools` TypeScript declarations [(#12587)](https://github.com/stdlib-js/stdlib/pull/12587) _(by stdlib-bot)_
 -   [`cb58c26`](https://github.com/stdlib-js/stdlib/commit/cb58c2603fec6ec457e3df9de23dea8c3cf51e90) - **docs:** fix TSDoc issues in several `math/base/tools` declarations [(#12464)](https://github.com/stdlib-js/stdlib/pull/12464) _(by Philipp Burckhardt)_
 -   [`a615900`](https://github.com/stdlib-js/stdlib/commit/a615900caf19b4bb54ff0778986c44e6136494f7) - **feat:** update `math/base/tools` TypeScript declarations [(#12165)](https://github.com/stdlib-js/stdlib/pull/12165) _(by stdlib-bot)_
@@ -69,8 +71,9 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
+-   Akanksha Kumari
 -   Athan Reines
 -   Baixiaochun
 -   Bhargav Dabhade
@@ -79,6 +82,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Partha Das
 -   Philipp Burckhardt
 -   anee3
+-   jichenggepeter-dev
 
 </section>
 
