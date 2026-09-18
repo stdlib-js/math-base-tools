@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-30)
+## Unreleased (2026-09-18)
 
 <section class="features">
 
@@ -38,6 +38,9 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`710a849`](https://github.com/stdlib-js/stdlib/commit/710a849ce8294d6b1ccd66f257007bab2ddf4331) - **test:** migrate `math/base/tools/normhermitepolyf` to ULP-based assertions [(#14947)](https://github.com/stdlib-js/stdlib/pull/14947) _(by Philipp Burckhardt)_
+-   [`da791bd`](https://github.com/stdlib-js/stdlib/commit/da791bde13dcfc4ae6a1c9bd2f5dc22896792c41) - **test:** migrate `math/base/tools/normhermitepoly` to ULP-based assertions [(#14900)](https://github.com/stdlib-js/stdlib/pull/14900) _(by Philipp Burckhardt)_
+-   [`cbe7813`](https://github.com/stdlib-js/stdlib/commit/cbe7813c0f74bc2ca3c21eb57c5d14f10528652f) - **test:** migrate `math/base/tools/hermitepoly` to ULP-based assertions [(#14613)](https://github.com/stdlib-js/stdlib/pull/14613) _(by Philipp Burckhardt)_
 -   [`fab0962`](https://github.com/stdlib-js/stdlib/commit/fab096256a5ce80d8c9324da8b9535e2334629d8) - **chore:** fix JavaScript lint errors [(#13595)](https://github.com/stdlib-js/stdlib/pull/13595) _(by jichenggepeter-dev)_
 -   [`d429b7b`](https://github.com/stdlib-js/stdlib/commit/d429b7b10f275b904b9346850252b91f8219ea75) - **chore:** fix JavaScript lint errors  [(#13176)](https://github.com/stdlib-js/stdlib/pull/13176) _(by Akanksha Kumari)_
 -   [`26b9776`](https://github.com/stdlib-js/stdlib/commit/26b977687d4383a56018ec5d4e5e101bd580c98c) - **docs:** update `math/base/tools` TypeScript declarations [(#12587)](https://github.com/stdlib-js/stdlib/pull/12587) _(by stdlib-bot)_
